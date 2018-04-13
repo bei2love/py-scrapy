@@ -17,3 +17,8 @@ class SexItem(scrapy.Item):
     url = scrapy.Field()
     author = scrapy.Field()
     update_time = scrapy.Field()
+    image_urls = scrapy.Field()     #保存图片的地址
+    images = scrapy.Field()         #保存图片的信息
+    image_paths = scrapy.Field()
+    path = scrapy.Field()
+
